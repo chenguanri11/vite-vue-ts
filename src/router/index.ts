@@ -1,5 +1,4 @@
-import { routes } from './routes'
-import { setupRouter } from './setup'
+import { routes } from './routes';
+import { setupRouter } from './setup';
 
-
-export {routes,setupRouter}
+export { routes, setupRouter };

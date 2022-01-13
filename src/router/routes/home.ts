@@ -1,13 +1,12 @@
-import {RouteRecordRaw} from 'vue-router'
-import Home from '@/views/Home/index.vue'
+import { RouteRecordRaw } from 'vue-router';
+import Home from '@/views/Home/index.vue';
 
-const homeRoute:RouteRecordRaw[] = [
+const homeRoute: RouteRecordRaw[] = [
   {
-    path:'/',
-    name:'Home',
-    component:Home
+    path: '/',
+    name: 'Home',
+    component: Home
   }
-]
+];
 
-export default homeRoute
-
+export default homeRoute;

@@ -1,13 +1,12 @@
-import {RouteRecordRaw} from 'vue-router'
-import Login from '@/views/login/index.vue'
+import { RouteRecordRaw } from 'vue-router';
+import Login from '@/views/login/index.vue';
 
-const loginRoute:RouteRecordRaw[] = [
+const loginRoute: RouteRecordRaw[] = [
   {
-    path:'/',
-    name:'Login',
-    component:Login
+    path: '/',
+    name: 'Login',
+    component: Login
   }
-]
+];
 
-export default loginRoute
-
+export default loginRoute;

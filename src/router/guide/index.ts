@@ -1,7 +1,7 @@
-import type {Router} from 'vue-router'
+import type { Router } from 'vue-router';
 
-export function createRouterGuide(router:Router){
-  router.beforeEach((to,from,next)=>{
-    next()
-  })
+export function createRouterGuide(router: Router) {
+  router.beforeEach((to, from, next) => {
+    next();
+  });
 }
